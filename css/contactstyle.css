@@ -1,0 +1,66 @@
+.contact h2{
+    font-size: 35px;
+    text-align: center;
+        color: rgb(223, 158, 37);
+}
+.contact .referencesss {
+    margin-top: 30px;
+height: 40px;
+background-color: #F5F5F5;
+border-radius: 5px;
+padding-left: 30px;
+padding-top: 9px;
+box-sizing: border-box;
+margin-bottom: 20px;
+    font-size: 25px;
+}
+.contact .referencesss .span{
+    color: rgb(223, 158, 37);
+}
+.contact_info,.contact_infoo{
+    float: left;
+}
+.contact_info{
+    margin-left: 5%;
+}
+.clearfix{
+    clear:both;
+}
+.contact_infoo{
+    margin-left: 5%;
+    width:40%;
+}
+
+form{
+    margin-top: 62px;
+    }
+    input[type='text'],input[type='email']{
+        width: 45%;
+        padding: 17px;
+        outline: none;
+        border: 1px dashed #999999
+    }
+    input[placeholder='message']{
+        width:100%;
+        outline: none;
+        border: 1px dashed #999999
+    }
+    .contact_info1{
+        margin-left: 6%;
+    }
+    
+    input[type='submit']{
+        width: 150px;
+        border-radius: 7px;
+        background-color: gray;
+        border: none;
+        height: 40px;
+        color: white;
+        outline: none;
+        cursor: pointer;
+        transition: all .6s ease-in;
+    }
+    input[type='submit']:hover{
+        background-color:rgb(223, 158, 37);
+        color: white;
+    }

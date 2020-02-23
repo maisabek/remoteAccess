@@ -1,0 +1,86 @@
+.body{
+    margin:0;
+    padding: 0;
+}
+.header{
+    background:url(../images/01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.head{ 
+    width:500px;
+    height:790px;  
+    margin-left:400px;
+    margin-right:400px;  
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    padding: 15px 15px 30px 30px;
+    box-shadow: 0 10px 20px 0px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 10px 20px 0px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 0 10px 20px 0px rgba(0, 0, 0, 0.1);
+    -o-box-shadow: 0 10px 20px 0px rgba(0, 0, 0, 0.1);
+    -ms-box-shadow: 0 10px 20px 0px rgba(0, 0, 0, 0.1);
+}
+.head h1{
+    color: rgb(161, 117, 21);;
+    text-align: center;
+}
+.head input[type=email],.head input[type=password],.head input[type=text]{
+    border:none;
+    border-bottom: 1px solid rgb(161, 117, 21);
+    background-color: transparent;
+    outline: none;
+    height: 40px;
+    color:black;
+    display: 16px;
+    margin-left: 30px;
+}
+::placeholder{
+    color:gray;
+}
+form select{
+    border:none;
+    border-bottom: 1px solid rgb(161, 117, 21);
+    background-color: transparent;
+    outline: none;
+    height: 40px;
+    color:black;
+    display: 16px;
+    margin-left: 30px;  
+}
+.count{
+    width: 170px;
+}
+.gend{
+    width: 170px;
+}
+.country{
+    width: 400px;
+}
+form select option{
+    background: gray;
+    color:  white;
+    border: none;
+}
+.head input[type=submit]{
+    border-radius: 25px;
+    height: 45px;
+    width:400px;
+    border: none;
+    background-color: rgb(161, 117, 21);
+      color: white;
+
+}
+.head input[type=submit]:hover{
+    background-color: black;
+    color: rgb(161, 117, 21);
+}
+.gend , .country{
+    border-bottom: 1px solid rgb(161, 117, 21);
+    background-color: transparent;
+    outline: none;
+    height: 40px;
+    color:black;
+    display: 16px;  
+}

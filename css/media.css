@@ -1,0 +1,80 @@
+/* media */
+@media (max-width: 767px ){/* mobile & tablet*/
+    .hov1{
+        margin-right: -10px;
+    }
+    .ul{
+     float: none;
+     display:none;
+   }
+   .header-container{
+      margin-left: 40%;
+   }
+   .header-p{
+       margin-left: -12px;
+       line-height: 24px;
+   }
+   .ourhistory-photo{
+    width: 80%;
+    margin-right: 10%;
+   }
+   .ourhistory-para{
+   width: 80%;
+   margin-left: 10%;
+   }
+   .icon{
+       display: none;
+   }
+   .blog1{
+    width: 95%;
+    margin-top: 36px;
+}
+.feedback-container{
+    margin-left: 10%;
+width: 100%;
+}
+.footer .four{
+width: 90%;
+}
+.footer .f2,.footer .f3,.footer .f4,.footer .f1{
+    margin-left: 5%;
+}
+
+ }
+ @media (min-width: 768px) and (max-width:991px){ /* small screen */
+    .header-p{
+    line-height: 25px;
+    }
+    .header-container{
+    margin-left: 18%;
+    }
+    .blog1{
+        width: 45%;
+        margin-top: 36px;
+    }
+    .footer .four{
+        width: 30%;
+        margin-right:15% ;
+        }
+        .footer .f3,.footer .f1{
+            margin-left: 8%;
+        }
+
+ }
+ @media (min-width: 992px) and (max-width:1199px) { /* medium screen */
+  
+    .header-container{
+    margin-left: 28%
+    }
+    .footer .four{
+        width: 11%;
+    margin-left: 3%;
+}
+
+ }
+ @media (min-width: 1200px){ /* large screen */
+   
+ }
+ /* end of media */
+
+

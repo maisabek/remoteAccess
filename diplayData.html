@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+     <meta charset="utf-8">    
+     <meta name="description" content="this simple layout">
+     <link rel="stylesheet" href="css/font-awesome.min.css">
+     <link rel="stylesheet" href="css/displayStyle.css" >
+     <title>GPS_Data</title>       
+ </head>
+ <body>
+     <div class="heade">
+         <h2>GPS Data With Raspberry PI</h2>
+     </div>
+        <div class="infoo">
+                <form>
+                    <input type="text" class="f1" placeholder="" required>
+                    <input type="text" placeholder="" required><br><br>
+                    <input type="text" class="f1" placeholder="DMS Latitude" required>
+                    <input type="text" placeholder="DMS Longitude" required><br><br>
+                    <input type="submit" value="Tracking">
+                </form>
+            </div>
+    <!-- start maps -->
+    <div class="maps">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d3456.6419301838555!2d30.923223!3d29.9609765!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sar!2seg!4v1573909576260!5m2!1sar!2seg"
+            frameborder="0" style="border:0" allowfullscreen=""></iframe>
+    </div>
+    <!-- end maps -->
+</body>
+</html>
